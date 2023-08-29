@@ -1,0 +1,38 @@
+﻿<Window x:Class="DEXISUtilitiesWPF.IsServerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DEXISUtilitiesWPF"
+        mc:Ignorable="d"
+        Icon="Icon1.ico"
+        Title="No Database Found" Height="200" Width="425" FontSize="14" Closing="Window_Closing" ResizeMode="NoResize">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="20" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="20" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="No DEXIS 9 Installation found. Please enter a Data Path." Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="5" Margin="3"/>
+
+        <TextBox x:Name="isServerDataPath" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="4" Margin="3" />
+        <Button x:Name="isServerBrowse" Content="Browse" Grid.Column="5" Grid.Row="2" Margin="3" Click="IsServerBrowse_Click" />
+        <Button x:Name="isServerSubmit" Content="Submit" Grid.Column="4" Grid.Row="4" Grid.ColumnSpan="2" Margin="3" Click="IsServerSubmit_Click" IsDefault="True" />
+        
+    </Grid>
+</Window>

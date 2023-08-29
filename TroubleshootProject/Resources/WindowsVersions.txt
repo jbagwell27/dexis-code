@@ -1,0 +1,10 @@
+XP
+Vista
+7
+8/8.1
+10
+Server 2003
+Server 2008
+Server 2012
+Server 2016
+Server 2019
