@@ -1,0 +1,31 @@
+20170915 14:04    1 dentist #00010: ^^DEXIS Demo Practice |08C8
+20170915 14:04    2 phone #00010: ^^888-883-3947 |0863
+20170918 14:50    3 use #00029: ^^DEXray9 |0CEA
+20170918 14:50    4 use #00029: ^^DEXimage |1871
+20170918 16:48    5 use #0123456: ^^DEXnet |1859
+20170926 14:29    6 use #--: ^^DEXpsp |0135
+20170927 12:06    7 use #--: ^^DEXwrite |1EAF
+20171010 10:17    8 use #--: ^^DEXscan |137E
+20171018 18:14    9 use #--: ^^DEXsecurity |17DF
+20180126 16:32   10 DEXray9 #--: ^^component |0B7C
+20180126 16:51   11 DEXnet #--: ^^component |09E6
+20180126 16:51   12 DEXimage #--: ^^component |08D8
+20180126 16:52   13 DEXwrite #--: ^^component |0E53
+20180126 16:52   14 use #--: ^^DEXimplant |02CA
+20180126 16:52   15 DEXimplant #--: ^^component |089E
+20180126 16:52   16 DEXscan #--: ^^component |046B
+20180126 16:52   17 use #--: ^^DEXclaim |1DAE
+20180126 16:52   18 DEXclaim #--: ^^component |0EC3
+20180126 16:52   19 use #--: ^^DEXpan |03DB
+20180126 16:53   20 DEXpan #--: ^^component |09D7
+20180126 16:53   21 DEXpsp #--: ^^component |0BEA
+20180126 16:53   22 use #--: ^^IO-Sensor |1918
+20180126 16:53   23 IO-Sensor #--: ^^component |0867
+20180126 16:53   24 use #--: ^^DEXsync |17E3
+20180126 16:53   25 DEXsync #--: ^^component |0261
+20180126 16:54   26 DEXsecurity #--: ^^component |052C
+20180126 16:54   27 use #--: ^^DEXlink |0FD5
+20180126 16:54   28 DEXlink #--: ^^component |05F4
+20180818 12:01   29 use #--: ^^DEXray10 |1D36
+20180818 12:01   30 DEXray10 #--: ^^component |0C3E
+C9C6E5397058493A

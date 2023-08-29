@@ -1,0 +1,1 @@
+ChangeProvider.ps1 needs to be copied into the main data folder of DEXIS9 database
